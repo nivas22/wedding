@@ -15,6 +15,8 @@ z.controller('contentControl',function($scope,$translate,$rootScope){
 	$scope.H6 =$translate.instant("H6");
 	$scope.H7 =$translate.instant("H7");
 
+	$scope.first_meet =$translate.instant("first_meet");
+
 	$scope.Hero_Name =$translate.instant("Hero_Name");
       $scope.Heroine_Name=$translate.instant("Heroine_Name");
       $scope.Label_Fun=$translate.instant("Label_Fun");
@@ -69,6 +71,7 @@ z.controller('contentControl',function($scope,$translate,$rootScope){
 
 			$scope.groom_intro=$translate.instant("groom_intro");
 			$scope.bride_intro=$translate.instant("bride_intro");
+			$scope.first_meet =$translate.instant("first_meet");
 
      $scope.Second_Heading=$translate.instant("Second_Heading");
      $scope.Line_One=$translate.instant("Line_One");
