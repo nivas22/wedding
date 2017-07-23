@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "wedding-77627"
+    "default": "wedding-77627",
+    "staging": "wedding-77627"
   }
 }
