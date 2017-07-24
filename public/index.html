@@ -705,12 +705,12 @@
 								<div class="row">
 									<div class="col-sm-12">
 										<div class="form-group">
-										    <input type="text" class="form-control" id="name" name="name" placeholder="Your name..." required="required">
+										    <input type="text" ng-model="name" class="form-control" id="name" name="name" placeholder="Your name..." required="required">
 										</div>
 									</div>
 									<div class="col-sm-6">
 									    <div class="form-group">
-                                            <select name="numberOfGuest" id="numberOfGuest" tabindex="1" class="form-control">
+                                            <select name="numberOfGuest" ng-model="numberOfGuest" id="numberOfGuest" tabindex="1" class="form-control">
 												<option value="">Number of Guest</option>
 												<option value="1 Person">1 Person</option>
 												<option value="2 Persons">2 Persons</option>
@@ -721,7 +721,7 @@
 									</div>
 									<div class="col-sm-6">
 									    <div class="form-group">
-										    <select name="eventAttending" id="eventAttending" tabindex="1" class="form-control">
+										    <select name="eventAttending" ng-model="eventAttending" id="eventAttending" tabindex="1" class="form-control">
 												<option value="">I am Attending</option>
 												<option value="All Event">All Event</option>
 												<option value="Wedding Ceremony">Wedding Ceremony</option>
@@ -731,10 +731,10 @@
 									</div>
 									<div class="col-sm-12">
 										<div class="form-group">
-										    <textarea class="form-control" name="message" id="message" placeholder="Write your message"></textarea>
+										    <textarea class="form-control" ng-model="message" name="message" id="message" placeholder="Write your message"></textarea>
 										 </div>
 										 <div class="form-group">
-										 	<input type="submit" name="submit" class="btn default-btn btn-block" value="I AM ATTENDING">
+										 	<input type="submit" ng-click="sendEnquiry()" name="submit" class="btn default-btn btn-block" value="I AM ATTENDING">
 										 </div>
 									</div>
 									<div class="col-sm-12">
@@ -884,6 +884,22 @@
 			  }
 			  google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB5ydl5Ke1NuwuuG1kzuQpXZJ-NmYI80JU",
+    authDomain: "wedding-77627.firebaseapp.com",
+    databaseURL: "https://wedding-77627.firebaseio.com",
+    projectId: "wedding-77627",
+    storageBucket: "wedding-77627.appspot.com",
+    messagingSenderId: "471852582788"
+  };
+  firebase.initializeApp(config);
+</script>
 
     <!-- Custom JavaScript Functions -->
 		<script type="text/javascript" src="assets/js/jquery.ajaxchimp.min.js"></script>
