@@ -99,6 +99,8 @@ $scope.sendEnquiry = function(){
 		 $scope.edate =$translate.instant("edate");
 
 		 $scope.rs1 =$translate.instant("rs1");
+		  $scope.rs2 =$translate.instant("rs2");
+			$scope.rs3 =$translate.instant("rs3");
 
 
 		$scope.Second_Heading=$translate.instant("Second_Heading");
