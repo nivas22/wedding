@@ -161,7 +161,7 @@
 					<div class="col-sm-12 text-center">
 						<div class="heading wow animated fadeInUp">
 							<h3>{{Second_Heading}}</h3>
-							<p>{{Top_Quote}}</p>
+							<p ng-bind-html="Top_Quote | nl2br"></p>
 						</div>
 						<!-- /.heading end -->
 					</div>
@@ -346,8 +346,8 @@
 	 				<div class="row">
 	 					<div class="col-sm-12 text-center">
 	 						<span class="rsvpLink-title">We are missing your present. Don’t be late no more.</span>
-	 						<a href="#contact" class="btn default-btn">RSVP</a>
-	 						<a href="#map" class="btn default-btn">MAP</a>
+	 						<a href="#contact" class="btn default-btn">{{H7}}</a>
+	 						<a href="#map" class="btn default-btn">{{H8}}</a>
 	 					</div>
 	 				</div>
 	 			</div>
@@ -526,7 +526,7 @@
 	 				<div class="col-sm-12 text-center">
  						<div class="heading wow animated fadeInUp">
 							<h3>{{H5}}</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra <br> nunc, non scelerisque ligula. Crasveljusto nulla Vestibuluma.</p>
+							<p>{{e0}}</p>
 						</div>
 						<!-- /.heading end -->
  					</div>
@@ -540,9 +540,9 @@
 	 						</div>
 	 						<!-- /.event-img end -->
 	 						<div class="event-body">
-	 							<h5><a href="blog-single.html">BACHELOR PARTY</a></h5>
-	 							<p>Excepteur sint occaecat non proident, sunt in culpa qui officia deserunt mollit aniid est laborumut perspiciatisunde.</p>
-	 							<span class="event-date">July 14th <span class="event-year">2015</span></span>
+	 							<h5><a href="blog-single.html">{{e1}}</a></h5>
+	 							<p>{{e11}}</p>
+	 							<span class="event-date">{{edate}} <span class="event-year">2017</span></span>
 	 						</div>
 	 						<!-- /.event-body end -->
 	 					</div>
@@ -555,9 +555,9 @@
 	 						</div>
 	 						<!-- /.event-img end -->
 	 						<div class="event-body">
-	 							<h5><a href="blog-single.html">WEDDING CEREMONY</a></h5>
-	 							<p>Excepteur sint occaecat non proident, sunt in culpa qui officia deserunt mollit aniid est laborumut perspiciatisunde.</p>
-	 							<span class="event-date">July 14th <span class="event-year">2015</span></span>
+	 							<h5><a href="blog-single.html">{{e2}}</a></h5>
+	 							<p>{{e12}}</p>
+	 							<span class="event-date">{{edate}} <span class="event-year">2017</span></span>
 	 						</div>
 	 						<!-- /.event-body end -->
 	 					</div>
@@ -570,9 +570,9 @@
 	 						</div>
 	 						<!-- /.event-img end -->
 	 						<div class="event-body">
-	 							<h5><a href="blog-single.html">WEDDING PARTY</a></h5>
-	 							<p>Excepteur sint occaecat non proident, sunt in culpa qui officia deserunt mollit aniid est laborumut perspiciatisunde.</p>
-	 							<span class="event-date">July 14th <span class="event-year">2015</span></span>
+	 							<h5><a href="blog-single.html">{{e3}}</a></h5>
+	 							<p>{{e13}}</p>
+	 							<span class="event-date">{{edate}} <span class="event-year">2017</span></span>
 	 						</div>
 	 						<!-- /.event-body end -->
 	 					</div>
@@ -674,7 +674,7 @@
 	        		<div class="row">
 	        			<div class="col-sm-12">
 	        				<blockquote>
-							  <p>For some people, the point of no return begins at the very <br> moment their souls become aware of each other's existence.</p>
+							  <p ng-bind-html="rs1 | nl2br"></p>
 							</blockquote>
 							<!-- blockquote end -->
 	        			</div>
@@ -691,7 +691,7 @@
 				<div class="row">
  					<div class="col-sm-12 text-center">
  						<div class="heading wow animated fadeInUp">
-							<h3>RSVP</h3>
+							<h3>{{H7}}</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra
                                <br> nunc, non scelerisque ligula. Crasveljusto nulla Vestibuluma.</p>
 						</div>
@@ -762,30 +762,23 @@
 	        		<div class="row">
 	        			<div class="col-sm-12 text-center">
 	        				<span class="footer-logo">
-	        					Johne &amp; Jane
+	        					{{Hero_Name}} &amp; {{Heroine_Name}}
 	        				</span>
 	        			</div>
-	        			<div class="col-sm-offset-3 col-sm-6">
-	        				<a href="#" class="wow animated rollIn"><i class="fa fa-facebook"></i></a>
-	        				<a href="#" class="wow animated rollIn"><i class="fa fa-twitter"></i></a>
-	        				<a href="#" class="wow animated rollIn"><i class="fa fa-google"></i></a>
-	        				<a href="#" class="wow animated rollIn"><i class="fa fa-share-alt"></i></a>
-	        				<a href="#" class="wow animated rollIn"><i class="fa fa-instagram"></i></a>
-	        				<a href="#" class="wow animated rollIn"><i class="fa fa-whatsapp"></i></a>
-	        			</div>
+
 	        		</div>
 	        		<div class="row">
 	        			<div class="col-sm-12 text-center">
 	        				<ul class="nav nav-pills">
-							  <li role="presentation"><a href="#banner">HOME</a></li>
-							  <li role="presentation"><a href="#gallery">GALLERY</a></li>
-							  <li role="presentation"><a href="#blog">BLOG</a></li>
-							  <li role="presentation"><a href="#contact">RSVP</a></li>
+							  <li role="presentation"><a href="#banner">{{H1}}</a></li>
+							  <li role="presentation"><a href="#gallery">{{H5}}</a></li>
+							  <li role="presentation"><a href="#blog">{{H6}}</a></li>
+							  <li role="presentation"><a href="#contact">{{H7}}</a></li>
 							</ul>
 							<!-- footer nav end -->
 	        			</div>
 	        			<div class="col-sm-12 text-center">
-	        				<p class="copyright"><i class="fa fa-copyright"></i> 2017 John&amp;Jane - One Page Wedding Template By CodePassanger</p>
+	        				<p class="copyright"><i class="fa fa-copyright"></i> 2017 {{Title}}</p>
 	        			</div>
 	        		</div>
 	        	</div>
@@ -858,9 +851,9 @@
 				{name: "Styled Map"});
 
 				var mapCanvas = document.getElementById('map');
-				var nevada = new google.maps.LatLng(39.2621799, -121.0168816);
+				var nevada = new google.maps.LatLng(8.962407, 77.305121);
 				var mapOptions = {
-				   zoom: 15,
+				   zoom: 17,
 				   center: nevada,
 				   mapTypeControlOptions: {
 				   mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
