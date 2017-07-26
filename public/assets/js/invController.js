@@ -6,7 +6,15 @@ z.controller('contentControl',function($scope,$translate,$rootScope){
 	$scope.selecEnglish = true;
 	$scope.selecMal =false;
 
+	clear();
+	playAudio();
 	loadText();
+
+
+	function playAudio () {
+			//  var audio = new Audio('mp3/1.mp3');
+			//  audio.play();
+	 };
 
 
 
@@ -34,9 +42,17 @@ $scope.sendEnquiry = function(){
 		'eventAttending':$scope.eventAttending,
 		'message':$scope.message
 	}
-		alert(JSON.stringify($scope.customerInfo));
-		//addCustomerInfo($scope.customerInfo);
+		addCustomerInfo($scope.customerInfo);
+		clear();
+		alert("Thanks for your response...")
 	};
+
+function clear(){
+	$scope.name = '';
+	$scope.message = '';
+	$scope.numberOfGuest = '';
+	$scope.eventAttending = '';
+}
 
 	function loadText(){
 		$scope.Title =$translate.instant("Title");
@@ -101,6 +117,23 @@ $scope.sendEnquiry = function(){
 		 $scope.rs1 =$translate.instant("rs1");
 		  $scope.rs2 =$translate.instant("rs2");
 			$scope.rs3 =$translate.instant("rs3");
+			$scope.rs4 =$translate.instant("rs4");
+			$scope.rs5 =$translate.instant("rs5");
+
+			$scope.fng_title =$translate.instant("fng_title");
+ 		  $scope.fng1 =$translate.instant("fng1");
+ 			$scope.fng2 =$translate.instant("fng2");
+ 			$scope.fng3 =$translate.instant("fng3");
+ 			$scope.fng4 =$translate.instant("fng4");
+
+			$scope.fe_title =$translate.instant("fe_title");
+ 		  $scope.fe1 =$translate.instant("fe1");
+ 			$scope.fe2 =$translate.instant("fe2");
+ 			$scope.fe4 =$translate.instant("fe4");
+
+				$scope.i_am_attend =$translate.instant("i_am_attend");
+				$scope.name_placeholder =$translate.instant("name_placeholder");
+				$scope.msg_placeholder =$translate.instant("msg_placeholder");
 
 
 		$scope.Second_Heading=$translate.instant("Second_Heading");

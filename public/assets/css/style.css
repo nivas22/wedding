@@ -76,6 +76,29 @@ h2, h2, h3 {
 	font-family: 'Lobster', cursive;
 }
 
+.language-selection{
+	/*float:right;
+	margin-right: 10px;*/
+	    text-align: center;
+    top: -3px;
+    position: relative;
+    margin-top: 5px;
+}
+.language-selection ul li {
+	list-style: none;
+	padding: 3px;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+.selected{
+background: white;
+color:#e24646;
+}
+
 h1 { font-size: 60px;}
 h2 { font-size: 45px;}
 h3 { font-size: 36px;}

@@ -72,7 +72,8 @@
 		</ul>
 		<div class="preloader-section">
 			<audio autoplay loop>
-				<source src="mp3/1.mp3">
+				<source src="mp3/1.mp3" type="mpeg">
+        <source src="mp3/1.ogg">
 			</audio>
 		</div>
     </div>
@@ -148,9 +149,8 @@
 		            </div>
 		            <div class="col-sm-2 mobile-pos">
 		              <ul class="social-icon pull-right">
-		                <li><a href="#"><img src="images/tamil.png" alt="Smiley face" height="42" width="42"></a></li>
-		                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-		                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		                <li><a href="#"><img ng-click="changeLanguage('tn')" src="images/icon/tamil.png" alt="Smiley face" height="42" width="42"></a></li>
+		                <li><a href="#"><img ng-click="changeLanguage('en')" src="images/icon/english.png" alt="Smiley face" height="42" width="42"></a></li>
 		              </ul>
 		              <!-- /.social-icon end -->
 		            </div>
@@ -370,7 +370,7 @@
  						<div class="col-sm-12 text-center">
  							<div class="heading wow animated fadeInUp">
 								<h3>{{H4}}</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra <br> nunc, non scelerisque ligula. Crasveljusto nulla Vestibuluma.</p>
+								<p>{{rs4}}</p>
 							</div>
 						<!-- /.heading end -->
  						</div>
@@ -547,7 +547,7 @@
 	 						<!-- /.event-img end -->
 	 						<div class="event-body">
 	 							<h5><a href="blog-single.html">{{e1}}</a></h5>
-	 							<p>{{e11}}</p>
+	 							<p ng-bind-html="e11 | nl2br"></p>
 	 							<span class="event-date">{{edate}} <span class="event-year">2017</span></span>
 	 						</div>
 	 						<!-- /.event-body end -->
@@ -562,7 +562,7 @@
 	 						<!-- /.event-img end -->
 	 						<div class="event-body">
 	 							<h5><a href="blog-single.html">{{e2}}</a></h5>
-	 							<p>{{e12}}</p>
+	 							<p ng-bind-html="e12 | nl2br"></p>
 	 							<span class="event-date">{{edate}} <span class="event-year">2017</span></span>
 	 						</div>
 	 						<!-- /.event-body end -->
@@ -577,7 +577,7 @@
 	 						<!-- /.event-img end -->
 	 						<div class="event-body">
 	 							<h5><a href="blog-single.html">{{e3}}</a></h5>
-	 							<p>{{e13}}</p>
+	 							<p ng-bind-html="e13 | nl2br"></p>
 	 							<span class="event-date">{{edate}} <span class="event-year">2017</span></span>
 	 						</div>
 	 						<!-- /.event-body end -->
@@ -662,7 +662,7 @@
                         </div>
 												<div class="item col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="gallery-img"><img src="images/gallery/gallery_thumb_09.jpg" alt="gallery image"></div>
-                            <a href="images/gallery/gallery_image_08.jpg" class="caption gallery-popup">
+                            <a href="images/gallery/gallery_image_09.jpg" class="caption gallery-popup">
 															<h5>{{HH6}}</h5>
 															<span class="img_category">{{HH5}}</span>
                             </a>
@@ -698,8 +698,7 @@
  					<div class="col-sm-12 text-center">
  						<div class="heading wow animated fadeInUp">
 							<h3>{{H7}}</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra
-                               <br> nunc, non scelerisque ligula. Crasveljusto nulla Vestibuluma.</p>
+							<p ng-bind-html="rs5 | nl2br"></p>
 						</div>
 						<!-- /.heading end -->
  					</div>
@@ -711,36 +710,36 @@
 								<div class="row">
 									<div class="col-sm-12">
 										<div class="form-group">
-										    <input type="text" ng-model="name" class="form-control" id="name" name="name" placeholder="Your name..." required="required">
+										    <input type="text" ng-model="name" class="form-control" id="name" name="name" placeholder={{name_placeholder}} required="required">
 										</div>
 									</div>
 									<div class="col-sm-6">
 									    <div class="form-group">
                                             <select name="numberOfGuest" ng-model="numberOfGuest" id="numberOfGuest" tabindex="1" class="form-control">
-												<option value="">Number of Guest</option>
-												<option value="1 Person">1 Person</option>
-												<option value="2 Persons">2 Persons</option>
-												<option value="3 Persons">3 Persons</option>
-												<option value="4+ Persons">4+ Persons</option>
+												<option value="">{{fng_title}}</option>
+												<option value="1 Person">{{fng1}}</option>
+												<option value="2 Persons">{{fng2}}</option>
+												<option value="3 Persons">{{fng3}}</option>
+												<option value="4+ Persons">{{fng4}}</option>
 											</select>
 										</div>
 									</div>
 									<div class="col-sm-6">
 									    <div class="form-group">
 										    <select name="eventAttending" ng-model="eventAttending" id="eventAttending" tabindex="1" class="form-control">
-												<option value="">I am Attending</option>
-												<option value="All Event">All Event</option>
-												<option value="Wedding Ceremony">Wedding Ceremony</option>
-												<option value="Wedding Ceremony">Wedding Party</option>
+												<option value="">{{fe_title}}</option>
+												<option value="All Event">{{fe1}}</option>
+												<option value="Wedding Ceremony">{{fe2}}</option>
+												<option value="Wedding Reception">{{fe4}}</option>
 											</select>
 										</div>
 									</div>
 									<div class="col-sm-12">
 										<div class="form-group">
-										    <textarea class="form-control" ng-model="message" name="message" id="message" placeholder="Write your message"></textarea>
+										    <textarea class="form-control" ng-model="message" name="message" id="message" placeholder={{msg_placeholder}}></textarea>
 										 </div>
 										 <div class="form-group">
-										 	<input type="submit" ng-click="sendEnquiry()" name="submit" class="btn default-btn btn-block" value="I AM ATTENDING">
+										 	<input type="submit" ng-click="sendEnquiry()" name="submit" class="btn default-btn btn-block" value={{i_am_attend}}>
 										 </div>
 									</div>
 									<div class="col-sm-12">
@@ -777,8 +776,8 @@
 	        			<div class="col-sm-12 text-center">
 	        				<ul class="nav nav-pills">
 							  <li role="presentation"><a href="#banner">{{H1}}</a></li>
-							  <li role="presentation"><a href="#gallery">{{H5}}</a></li>
-							  <li role="presentation"><a href="#blog">{{H6}}</a></li>
+							  <li role="presentation"><a href="#event">{{H5}}</a></li>
+							  <li role="presentation"><a href="#gallery">{{H6}}</a></li>
 							  <li role="presentation"><a href="#contact">{{H7}}</a></li>
 							</ul>
 							<!-- footer nav end -->
