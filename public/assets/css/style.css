@@ -29,7 +29,7 @@ Index
 # -  7.0 - People feature section styles
 # -  8.0 - Event section styles
 # -  9.0 - Gift section styles
-# - 10.0 - Gallery section styles
+# - 10.0 - Gallery section stylesselectedselectedink
 # - 11.0 - Blog section styles
 # - 12.0 - Quote section styles
 # - 13.0 - Contact section styles
@@ -910,7 +910,7 @@ ul, li {
 */
 
 .rsvpLink {
-	background: url(../../images/bg/section_bg.jpg) no-repeat fixed center center;
+	background: url(../../images/section_bg.jpg) no-repeat fixed center center;
 }
 .rsvpLink .color-overlay {
 	background: rgba(0,0,0,.7);
@@ -1318,7 +1318,7 @@ ul, li {
 */
 
 .quote {
-	background: url(../../images/bg/quote_bg.jpg) no-repeat fixed center center;
+	background: url(../../images/quote_bg.jpg) no-repeat fixed center center;
 }
 .quote .color-overlay {
 	padding: 70px 0 60px;

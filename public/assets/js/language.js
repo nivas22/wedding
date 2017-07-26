@@ -13,11 +13,48 @@ z.constant('languages',{
     'H5': 'Events',
     'H6': 'Gallery',
     'H7': 'RSVP',
+    'H8': 'MAP',
 
       'Hero_Name': 'Seenu',
       'Heroine_Name':'Raji',
-      'Label_Fun1': 'A Wedding Shower',
-      'Top_Quote': 'wedding is a beautiful poem, where husband and wife are iti s release, The poem becomes meaningless, even if one lyrics is missed...',
+      'Label_Fun': 'A Wedding Shower',
+      'Top_Quote': 'Wedding is a beautiful poem, where husband and wife are iti s release, The poem becomes meaningless, even if one lyrics is missed...',
+
+      'HH1':'First Meet',
+      'HH2':'Hello Hello',
+      'HH3':'Love Gift',
+      'HH4':'Happy Engagement',
+      'HH5':'Engagement',
+      'HH6':'Happy Moments',
+
+      "rs2":"We are missing your present. Don’t be late no more.",
+
+      'r11': 'Sankaran - Selvarani',
+      'r12':'Groom Parents',
+      'r13':'நாங்க ரொம்ப சந்தோசமா இருக்கோம் எங்க 2வது பையனுக்கு கல்யாணம். முதல் மருமக மாதிரி 2வது மருமகளும் நல்லபடியா அமைஞ்சுடுச்சு.  எங்க கடமையை எல்லாம் நல்லபடியா முடிச்சுட்டோம்னு நிம்மதியாக இருக்கோம்',
+
+      'r21': 'Mariappan - Usha',
+      'r22': 'Bride Parents' ,
+      'r23': 'எங்க வீட்டு முதல் கல்யாணம் கொஞ்சம் படபடப்பு இருந்தாலும் ஒரு நல்ல குடும்பத்துல என் பொண்ணு வாழ போறான்னு நினைச்சு ரொம்ப சந்தோசமா இருக்கோம்',
+
+      'r31': 'Nellai Nayagam - Raja Kumari',
+      'r32': 'Groom Brother in law - Sister',
+      'r41': 'Manthiram - Gomathi',
+      'r42': 'Groom brother - Sister in law',
+
+      'r33': '(அத்தான்) முதல்ல வேணாம்னு சொன்ன மாப்பிளை பொண்ண பார்த்துட்டு வந்த அப்புறம் அந்தர் பல்டி அடிச்சு டூயட் பாட ஆரம்பிச்சுட்டான்.என் மாப்பிளைக்கு நல்ல வாழ்க்கையும் எனக்கு ஒரு புது தங்கச்சியும் கிடைச்சுட்டானு ரொம்ப சந்தோசம். (தங்கச்சி)என் செல்ல அண்ணனுக்கு கல்யாணம் அவனுக்கு எப்போதும் நான்தான் செல்ல ராஜகுமாரி.ஆனா இப்போம் அவனுக்கான ராஜகுமாரி வந்தாச்சு. இனி அண்ண பாசத்தோட அண்ணி பாசமும் கிடைக்க பொது இந்த ராஜகுமாரிக்கு!!!',
+      'r43': '(அண்ணன்) என் தம்பிக்கு பெஸ்ட் வாழ்க்கை கிடைச்சதுல ரொம்ப ரொம்ப சந்தோசம், கோமதி வந்த அப்புறம் எங்க வீட்ல நடக்க போற முதல் பெரிய விழா, அதுனால  நாங்க ரொம்ப ஜாலியாவும் இருக்கோம்.. (அண்ணி) இவ்ளோ நாள் அண்ணியா பார்த்துக்கிட்ட எனக்கு இப்போம் அக்காங்கிற பதவி உயர்வு கிடைச்சாச்சு.',
+
+      'r51': 'Arun Kalyan',
+      'r52': 'Bride Brother',
+      'r53': 'இவ்ளோ நாள் அக்காகிட்ட  மாட்டிகிட்டு இருந்த நான் இப்போம் தப்புச்சிட்டன், ஆனா அத்தான் அவங்களா வந்து இப்படி மாட்டிக்கிட்டாங்க. அவளை நீங்க பார்த்துகிறதவிட, உங்கள நீங்க அவட்ட இருந்து பத்திரமா பார்த்துக்கோங்க அத்தான். என்னதான் இப்படி விளையாட்ட பேசுனாலும் நிஜமா அவளை தேடும், சண்டை போட இனி ஆள் இருக்காதுலா...',
+
+      'e0':'இதயங்கள் இணைகையில் இனிமைகள் வாழ்விலே! உன் இதயமும் என் இதயமும் ஒன்றாக சேரட்டுமே !.....',
+      'e1':'Wedding Ceremony',
+      'e2':'Wedding Celebration',
+      'e3':'Reception',
+      'edate':'Sep 4',
+
 
       'Second_Heading': 'Groom & Bride',
       'Line_One':'We Are Getting Married',
@@ -53,6 +90,7 @@ z.constant('languages',{
       'H5': 'Events',
       'H6': 'Gallery',
       'H7': 'RSVP',
+      'H8': 'MAP',
 
 
       'Hero_Name': 'Manthiram',
@@ -96,7 +134,7 @@ z.constant('languages',{
 
       'Hero_Name': 'சீனு',
       'Heroine_Name':'ராஜீ',
-      'Label_Fun1': 'மணவிழா',
+      'Label_Fun': 'கல்யாண திருவிழா',
       'Top_Quote': 'என்னோடு நீ உன்னோடு நான், ஒன்றோடு நாம் ஒன்றாகும் நாள்! என்னோடு நீ உன்னோடு நான், ஒன்றாகும் நாள்..! '+
       '\n இந்நாளும் எந்நாளும், கை கோர்த்துப் போகும் பாதை, கண்ணில் தோன்றுதே! சொல்லாமல் கொள்ளாமல், நெஞ்சோடு காதல் சேர, மூச்சு முட்டுதே!', //'வாழ்த்துவோம் வாங்க',
 
