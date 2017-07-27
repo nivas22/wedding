@@ -8,7 +8,7 @@ z.config(function($translateProvider, languages) {
   $translateProvider.translations('tn', tn);
    $translateProvider.translations('ml', ml);
 
-  $translateProvider.preferredLanguage('tn');
+  $translateProvider.preferredLanguage('en');
 
 });
 
@@ -22,6 +22,5 @@ firebase.auth().onAuthStateChanged(function(user) {
     var isAnonymous = user.isAnonymous;
     var uid = user.uid;
     console.log("User id %s...", uid);
-  } 
+  }
 });
-

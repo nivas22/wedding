@@ -1,7 +1,7 @@
 z.controller('contentControl',function($scope,$translate,$rootScope){
 	$scope.name ="dsfdsf";
 	//$translateProvider.preferredLanguage('en');
-	$translate.use('tn');
+	$translate.use('en');
 	$scope.selecTamil =false;
 	$scope.selecEnglish = true;
 	$scope.selecMal =false;

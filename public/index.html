@@ -183,7 +183,7 @@
 									</div>
 									<!-- /.thumb-img -->
 									<div class="thumbnail-detail">
-										<p>{{groom_intro}}</p>
+										<p ng-bind-html="groom_intro | nl2br"></p>
 										<ul class="social-icon">
 										<img src="images/ic1.png">
 										<img src="images/ic2.png">
@@ -205,7 +205,7 @@
 									</div>
 									<!-- /.thumb-img -->
 									<div class="thumbnail-detail">
-										<p>{{bride_intro}}
+                    <p ng-bind-html="bride_intro | nl2br"></p>
 										</p>
 										<ul class="social-icon">
 											<img src="images/ic3.png">
@@ -236,7 +236,7 @@
  					<div class="col-sm-12 text-center">
  						<div class="heading wow animated fadeInUp">
 							<h3>{{H3}}</h3>
-							<p>{{h3_head}}</p>
+              	<p ng-bind-html="h3_head | nl2br"></p>
 						</div>
 						<!-- /.heading end -->
  					</div>
@@ -260,7 +260,7 @@
 											<img class="img-responsive" src="images/lv1.jpg" alt="timeline image">
 										</div>
 			                            <div class="timeline-body">
-											{{first_meet}}
+                      <p ng-bind-html="first_meet | nl2br"></p>
 										</div>
 									    <!-- /.timeline-body end -->
 									</div>
@@ -283,7 +283,7 @@
 											<img class="img-responsive" src="images/lv2.jpg" alt="tmeline image">
 										</div>
 			                            <div class="timeline-body">
-											{{phone_conv}}
+                      <p ng-bind-html="phone_conv | nl2br"></p>
 										</div>
 									    <!-- /.timeline-body end -->
 									</div>
@@ -306,7 +306,8 @@
 											<img class="img-responsive" src="images/lv3.jpg" alt="tmeline image">
 										</div>
 			                            <div class="timeline-body">
-											{{gift}}
+
+                      <p ng-bind-html="gift | nl2br"></p>
 										</div>
 									    <!-- /.timeline-body end -->
 									</div>
@@ -330,7 +331,8 @@
 											<img class="img-responsive" src="images/lv4.jpg" alt="tmeline image">
 										</div>
 			                            <div class="timeline-body">
-											{{engagement}}
+
+                      <p ng-bind-html="engagement | nl2br"></p>
 										</div>
 									    <!-- /.timeline-body end -->
 									</div>
@@ -370,7 +372,7 @@
  						<div class="col-sm-12 text-center">
  							<div class="heading wow animated fadeInUp">
 								<h3>{{H4}}</h3>
-								<p>{{rs4}}</p>
+                <p ng-bind-html="rs4 | nl2br"></p>
 							</div>
 						<!-- /.heading end -->
  						</div>
@@ -382,7 +384,7 @@
  							<div class="col-sm-8">
 	 							<div class="profile">
 									<h5>{{r11}}<small>{{r12}}</small></h5>
-	 								<p>{{r13}}</p>
+                  <p ng-bind-html="r13 | nl2br"></p>
 	 							</div>
  							</div>
  							<div class="col-sm-4">
@@ -426,7 +428,7 @@
  							<div class="col-sm-8">
 	 							<div class="profile">
 									<h5>{{r21}}<small>{{r22}}</small></h5>
-	 								<p>{{r23}}</p>
+	 							<p ng-bind-html="r23 | nl2br"></p>
 	 							</div>
  							</div>
  						</div>
@@ -439,7 +441,8 @@
  							<div class="col-sm-8">
 	 							<div class="profile">
 									<h5>{{r31}}<small>{{r32}}</small></h5>
-	 								<p>{{r33}}</p>
+
+                  <p ng-bind-html="r33 | nl2br"></p>
 	 							</div>
  							</div>
  							<div class="col-sm-4">
@@ -483,7 +486,7 @@
  							<div class="col-sm-8">
 	 							<div class="profile">
 									<h5>{{r41}}<small>{{r42}}</small></h5>
-	 								<p>{{r43}}</p>
+	 								<p ng-bind-html="r43 | nl2br"></p>
 	 								</p>
 	 							</div>
  							</div>
@@ -497,7 +500,7 @@
  							<div class="col-sm-8">
 	 							<div class="profile">
 									<h5>{{r51}}<small>{{r52}}</small></h5>
-	 								<p>{{r53}}</p>
+	 								<p ng-bind-html="r53 | nl2br"></p>
 	 							</div>
  							</div>
  							<div class="col-sm-4">
@@ -532,7 +535,7 @@
 	 				<div class="col-sm-12 text-center">
  						<div class="heading wow animated fadeInUp">
 							<h3>{{H5}}</h3>
-							<p>{{e0}}</p>
+								<p ng-bind-html="e0 | nl2br"></p>
 						</div>
 						<!-- /.heading end -->
  					</div>
@@ -597,7 +600,7 @@
  					<div class="col-sm-12 text-center">
  						<div class="heading wow animated fadeInUp">
 							<h3>{{H6}}</h3>
-							<p>{{rs3}}</p>
+							<p ng-bind-html="rs3 | nl2br"></p>
 						</div>
 						<!-- /.heading end -->
  					</div>

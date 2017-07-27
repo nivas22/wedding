@@ -18,7 +18,11 @@ z.constant('languages',{
       'Hero_Name': 'Seenu',
       'Heroine_Name':'Raji',
       'Label_Fun': 'A Wedding Shower',
-      'Top_Quote': 'Wedding is a beautiful poem, where husband and wife are iti s release, The poem becomes meaningless, even if one lyrics is missed...',
+      'Top_Quote': 'Marriage is not only the beginning of a relationship, but also the end of life long search for the other half of your soul! \n We found each others...',
+
+      'groom_intro':'From Sept 4 forward, you shall not walk alone my heart will be your shelter and my arms will be your home darling... \n Myself, S.Seenivasan, son of M.Sankaran and Selvarani. Getting married with my Sivagiri girl...',
+      'bride_intro':'I have found the one whom my soul loves, Hold my hand forever and let\'s start our life journey together.. \n Myself, M.Rajalakshmi daughter of N. Mariappan and A.Usha.Loved to be Mrs.Seenu',
+      'h3_head':'A great marriage is not when the “perfect couple” comes together. It is when an imperfect couple learns to enjoy their differences...\n It is our parents who have fixed and made a bond between us.... Now it is our duty to begin a new love story.. ',
 
       'HH1':'First Meet',
       'HH2':'Hello Hello',
@@ -27,33 +31,61 @@ z.constant('languages',{
       'HH5':'Engagement',
       'HH6':'Happy Moments',
 
+      'first_meet':'In our first meet, we were excited to knew about each other. We got some time to talk. \n The conversation started with just hi ,hello like that and after sometime We both impressed by each other.',
+      'phone_conv':'After our first meet we both eager to start chatting. By all means I got her number finally. When I started to talk with her,she said that she had my number already and she waited for my first message.',
+      'gift':'Eventhough we had phone conversation but it was not clear due to bad Vodafone signal in sivagiri. So he gifted me a new mobile phone with sim card and I presented him a watch.',
+      'engagement':'3rd July 2017 the day of betrothal ceremony, Our marriage date has been fixed with the blessings of all on 4 th September 2017.. \n And we were happily engaged. Relatives and friends from both side were also happy on this occasion',
+
       "rs2":"We are missing your present. Don’t be late no more.",
 
+      "rs4":'We would like to use this opportunity to give a special mention to few of our close family members without whom wedding would not be possible.',
       'r11': 'Sankaran - Selvarani',
       'r12':'Groom Parents',
-      'r13':'நாங்க ரொம்ப சந்தோசமா இருக்கோம் எங்க 2வது பையனுக்கு கல்யாணம். முதல் மருமக மாதிரி 2வது மருமகளும் நல்லபடியா அமைஞ்சுடுச்சு.  எங்க கடமையை எல்லாம் நல்லபடியா முடிச்சுட்டோம்னு நிம்மதியாக இருக்கோம்',
+      'r13':'We are so happy with ours second son\'s marriage. We also thankful to God in getting our new daughter in law as best as like our 1st daughter in law we had. Our dreams comes true by this marriage',
 
       'r21': 'Mariappan - Usha',
       'r22': 'Bride Parents' ,
-      'r23': 'எங்க வீட்டு முதல் கல்யாணம் கொஞ்சம் படபடப்பு இருந்தாலும் ஒரு நல்ல குடும்பத்துல என் பொண்ணு வாழ போறான்னு நினைச்சு ரொம்ப சந்தோசமா இருக்கோம்',
+      'r23': 'This is our family\'s first Marriage. Though we have a little bit tension, we are happy to know that our daughter\'s marriage life begins with blessed family',
+
+      'rs1':'Marriage vows \n I Seenu , take you Raji to be my wife, life partner. And my one true love. I will cherish our friendship and love you forever. I will trust and honour you. Cry and laugh with you.. I will love you faithfully through the best and the worst. Whatever may come I will always be there with care and love..',
 
       'r31': 'Nellai Nayagam - Raja Kumari',
       'r32': 'Groom Brother in law - Sister',
       'r41': 'Manthiram - Gomathi',
       'r42': 'Groom brother - Sister in law',
 
-      'r33': '(அத்தான்) முதல்ல வேணாம்னு சொன்ன மாப்பிளை பொண்ண பார்த்துட்டு வந்த அப்புறம் அந்தர் பல்டி அடிச்சு டூயட் பாட ஆரம்பிச்சுட்டான்.என் மாப்பிளைக்கு நல்ல வாழ்க்கையும் எனக்கு ஒரு புது தங்கச்சியும் கிடைச்சுட்டானு ரொம்ப சந்தோசம். (தங்கச்சி)என் செல்ல அண்ணனுக்கு கல்யாணம் அவனுக்கு எப்போதும் நான்தான் செல்ல ராஜகுமாரி.ஆனா இப்போம் அவனுக்கான ராஜகுமாரி வந்தாச்சு. இனி அண்ண பாசத்தோட அண்ணி பாசமும் கிடைக்க பொது இந்த ராஜகுமாரிக்கு!!!',
-      'r43': '(அண்ணன்) என் தம்பிக்கு பெஸ்ட் வாழ்க்கை கிடைச்சதுல ரொம்ப ரொம்ப சந்தோசம், கோமதி வந்த அப்புறம் எங்க வீட்ல நடக்க போற முதல் பெரிய விழா, அதுனால  நாங்க ரொம்ப ஜாலியாவும் இருக்கோம்.. (அண்ணி) இவ்ளோ நாள் அண்ணியா பார்த்துக்கிட்ட எனக்கு இப்போம் அக்காங்கிற பதவி உயர்வு கிடைச்சாச்சு.',
+      'r33': '(Brother in Law) I am happy that my brother in law seenu is getting married with raji.. By this glorious moment I get on more sister along with Gomathi. \n(Sister) I am in excite mood that my beloved brother gonna be come a family man. Hereafter I will be showered with love and affection from both my brother and sister in law',
+      'r43': '(Brother) Dear seenu, I am feeling blessed to have you as my Brother. For sis - in - law, Thanks for coming our way. My heart wishes to both of you.. After the arrival of gomathi,this is the first cheerful function in our family... So we are enjoying..... \n(Sister in Law) Very happy for both my brother in law and new sister... Stay blessed with love.....',
 
       'r51': 'Arun Kalyan',
       'r52': 'Bride Brother',
-      'r53': 'இவ்ளோ நாள் அக்காகிட்ட  மாட்டிகிட்டு இருந்த நான் இப்போம் தப்புச்சிட்டன், ஆனா அத்தான் அவங்களா வந்து இப்படி மாட்டிக்கிட்டாங்க. அவளை நீங்க பார்த்துகிறதவிட, உங்கள நீங்க அவட்ட இருந்து பத்திரமா பார்த்துக்கோங்க அத்தான். என்னதான் இப்படி விளையாட்ட பேசுனாலும் நிஜமா அவளை தேடும், சண்டை போட இனி ஆள் இருக்காதுலா...',
+      'r53': 'Welcome you brother in law to our happy family. I am so excited... Nd strongly believe u both are perfect man and women. \n Wishing you both long life and unconditional happiness forever.. Love you both and Gonna miss you sis badly.',
 
-      'e0':'இதயங்கள் இணைகையில் இனிமைகள் வாழ்விலே! உன் இதயமும் என் இதயமும் ஒன்றாக சேரட்டுமே !.....',
+      'e11':'Love is there to bind us together and, we wish the time stays like that forever!.\n We are getting married. \n Do us the honour by coming to the function On \n Monday, September 4 at 6.00 - 7.30 \n in the morning. \n\n Place: Siva Kalyana Mandapam, Tenkasi',
+      'e12':'We want to share our happiness with the inmates of pranav aashrama\'s children and old aged people on our wedding day. \n\n Date: Monday, September 4, 2017. \n Time: 1 - 2 Pm \n\n\n Place: Pranav Asiramam, Courtralam.',
+      'e13':'Let\'s wrap our best wishes and shower the bride and groom with love... Please join us for the reception.. \n On Monday, \n September 4 at 6.00 - 7.30 \n in the evening. \n\n\n Place: Siva Kalyana Mandapam, Tenkasi',
+      'rs5':'Be a part of the festivities and brace yourselves for a whole lot of fun.',
+      'rs3':'Those special memories of us will bring a smile on our Face... Forever...And remains love with us...',
+      'e0':'"Marriage is caring and sharing, giving and forgiving, loving and being loved, walking hand in hand, \n taking heart to heart, to give and to take, and to see through each other eyes"',
       'e1':'Wedding Ceremony',
       'e2':'Wedding Celebration',
       'e3':'Reception',
       'edate':'Sep 4',
+
+      "fng_title":"Number of Guests",
+      "fng1":"1 person",
+      "fng2":"2 person",
+      "fng3":"3 person",
+      "fng4":"4 person",
+
+      "fe_title":"I am Attending",
+      "fe1":"All",
+      "fe2":"Wedding Ceremony",
+      "fe3":"Wedding Celebration",
+      "fe4":"Reception",
+      "i_am_attend":"I Am Attending",
+      "name_placeholder":"Name",
+      "msg_placeholder":"Write your message",
 
 
       'Second_Heading': 'Groom & Bride',
