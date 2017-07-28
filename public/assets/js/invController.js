@@ -1,7 +1,7 @@
 z.controller('contentControl',function($scope,$translate,$rootScope){
 	$scope.name ="dsfdsf";
 	//$translateProvider.preferredLanguage('en');
-	$translate.use('en');
+	$translate.use('tn');
 	$scope.selecTamil =false;
 	$scope.selecEnglish = true;
 	$scope.selecMal =false;
@@ -12,8 +12,13 @@ z.controller('contentControl',function($scope,$translate,$rootScope){
 
 
 	function playAudio () {
-			//  var audio = new Audio('mp3/1.mp3');
-			//  audio.play();
+			var cardsCountRef = firebase.database().ref('/visitors_count');
+			cardsCountRef.once('value', function(snapshot) {
+			console.log("value:"+snapshot.val());
+			var updates = {};
+  		updates['/visitors_count/'] = snapshot.val() + 1;
+  		firebase.database().ref().update(updates);
+		});
 	 };
 
 

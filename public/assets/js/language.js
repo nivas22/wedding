@@ -31,8 +31,8 @@ z.constant('languages',{
       'HH5':'Engagement',
       'HH6':'Happy Moments',
 
-      'first_meet':'In our first meet, we were excited to know about each other. We got some time to talk. \n The conversation started with just hi ,hello like that and after sometime We both impressed by each other.',
-      'phone_conv':'After our first meet we both eager to start chatting. By all means I got her number finally. When I started to talk with her,she said that she had my number already and she waited for my first message.',
+      'first_meet':'In our first meet, we were excited to know about each other. We got some time to talk. \n The conversation started with just hi ,hello like that and after sometime We were impressed by each other.',
+      'phone_conv':'After our first meet, we were eager to start chatting. By all means I got her number finally. When I started to talk with her,she said that she had my number already and she waited for my first message.',
       'gift':'Eventhough we had phone conversation but it was not clear due to bad Vodafone signal in sivagiri. So he gifted me a new mobile phone with sim card and I presented him a watch.',
       'engagement':'3rd July 2017 the day of betrothal ceremony, Our marriage date has been fixed with the blessings of all on 4 th September 2017 and we were happily engaged. Relatives and friends from both side were also happy on this occasion.',
 
@@ -51,10 +51,10 @@ z.constant('languages',{
 
       'r31': 'Nellai Nayagam - Raja Kumari',
       'r32': 'Groom Brother in law - Sister',
-      'r41': 'Manthiram - Gomathi',
+      'r41': 'Manthiram - Gomathy',
       'r42': 'Groom brother - Sister in law',
 
-      'r33': '(Brother in Law) I am happy that my brother in law seenu is getting married with raji.By this glorious moment I get one more sister along with Gomathi. \n(Sister) I am in excite mood that my beloved brother gonna become a family man. Hereafter I will be showered with love and affection from both my brother and sister in law',
+      'r33': '(Brother in Law) I am happy that my brother in law seenu is getting married with raji.By this glorious moment I get one more sister along with Gomathy. \n(Sister) I am in excite mood that my beloved brother gonna become a family man. Hereafter I will be showered with love and affection from both my brother and sister in law',
       'r43': '(Brother) Dear seenu, I am feeling blessed to have you as my Brother. For sis - in - law, Thanks for coming our way. My heart wishes to both of you.. After the arrival of gomathi,this is the first cheerful function in our family... So we are enjoying..... \n(Sister in Law) Very happy for both my brother in law and new sister... Stay blessed with love.....',
 
       'r51': 'Arun Kalyan',
@@ -221,7 +221,7 @@ z.constant('languages',{
 "rs2":"எங்களின் சந்தோஷத்தை  பகிரவும், உங்களது வாழ்த்துக்களையும், ஆசிகளையும் பெறுவதற்கான நம் சந்திப்பு இனிமையாக நிகழ, கீழே மறக்காமல் பதில் அளிக்கவும்.",
 "rs3":"மகிழ்வான தருணங்கள் மலர்ந்தது இனிமையாக... நெகிழ்வான இரு குடும்பங்கள் இணைந்தது பாசமாக...",
 "rs4":"அன்பாய் பார்த்து கொள்ள நீயும், அக்கறையாக பார்த்து கொள்ள அவளும், இணையும் திருமணத்தில் வாழ்த்துக்களை சுமந்து பூக்களாய் தூவி வாழ்த்துகிறோம்...",
-"rs5":"எங்களின் மகிழ்வான தருணங்கள் உங்களது வருகையினால் மலரட்டும் இனிமையாக!... \n உங்களது  வாழ்த்துக்கள் என்னும் கொண்டு அலங்கரிக்க அன்போடு அழைக்கிறோம். உங்களது வருகையை மறக்காமல் இங்கு பதிவு செய்யவும்", 
+"rs5":"எங்களின் மகிழ்வான தருணங்கள் உங்களது வருகையினால் மலரட்டும் இனிமையாக!... \n எங்களது திருமண விழாவை உங்களது வாழ்த்துக்கள் என்னும் பூக்களை கொண்டு அலங்கரிக்க அன்புடன் அழைக்கிறோம். உங்களது வருகையை மறக்காமல் இங்கு பதிவு செய்யவும்",
 
 "fng_title":"விருந்தினர் எண்ணிக்கை",
 "fng1":"1 நபர்",
